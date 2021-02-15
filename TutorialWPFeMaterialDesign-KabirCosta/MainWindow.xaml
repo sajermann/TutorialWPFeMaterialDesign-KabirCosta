@@ -16,9 +16,9 @@
         FontFamily="{DynamicResource MaterialDesignFont}"
         
         Title="MeuApp" 
-        Height="850" 
+        Height="600" 
         Width="600"
-        MinHeight="850"
+        MinHeight="600"
         MinWidth="600"
         WindowStartupLocation="CenterScreen"
         ToolTip="Janela Principal"
@@ -86,13 +86,13 @@
         <RadioButton Margin="10, 2" GroupName="SecSel" Content="Talvez" IsChecked="True" />
     </StackPanel>-->
     
-    <!--Video 7-->
+    <!--Video 7--><!--
     <StackPanel>
-        <!--<Button Margin="10" Content="Primeiro Botão" HorizontalAlignment="Center" />
+        --><!--<Button Margin="10" Content="Primeiro Botão" HorizontalAlignment="Center" />
         <Button Margin="10" Content="Segundo Botão" HorizontalContentAlignment="Left" />
         <Button Margin="10" Content="Terceiro Botão" HorizontalContentAlignment="Left" Width="100" />
         <Button Margin="10" Content="Quarto Botão" HorizontalContentAlignment="Left" Height="100" />
-        <Button Margin="10" ToolTip="Botão Gerado pelo Lib Material Design">Segundo Botão</Button>-->
+        <Button Margin="10" ToolTip="Botão Gerado pelo Lib Material Design">Segundo Botão</Button>--><!--
         <Button Margin="10" Style="{StaticResource MaterialDesignRaisedLightButton}" Content="Raised Light" Foreground="White" />
         <Button Margin="10" Style="{StaticResource MaterialDesignRaisedButton}" Content="Raised" />
         <Button Margin="10" Style="{StaticResource MaterialDesignRaisedDarkButton}" Content="Dark" />
@@ -114,5 +114,29 @@
         <Button Margin="5" Style="{StaticResource MaterialDesignFloatingActionMiniButton}" Foreground="White">
             <materialDesign:PackIcon Kind="Ambulance" Height="30" Width="30" />
         </Button>
+    </StackPanel>-->
+    
+    <!--Video 8-->
+    <StackPanel>
+        <ListBox Margin="10" HorizontalAlignment="Left" Width="200" >
+            <ListBoxItem Background="{StaticResource PrimaryHueLightBrush}" Foreground="{StaticResource PrimaryHueLightForegroundBrush}">Item 1</ListBoxItem>
+            <ListBoxItem Background="{StaticResource PrimaryHueMidBrush}" Foreground="{StaticResource PrimaryHueMidForegroundBrush}">Item 2</ListBoxItem>
+            <ListBoxItem Background="{StaticResource PrimaryHueDarkBrush}" Foreground="{StaticResource PrimaryHueDarkForegroundBrush}">Item 3</ListBoxItem>
+            <ListBoxItem Background="{StaticResource SecondaryAccentBrush}" Foreground="{StaticResource SecondaryAccentForegroundBrush}">Item 4</ListBoxItem>
+        </ListBox>
+        <ListBox Margin="10" HorizontalAlignment="Left" Style="{StaticResource MaterialDesignToolToggleListBox}">
+            <ListBoxItem Background="{StaticResource PrimaryHueLightBrush}" Foreground="{StaticResource PrimaryHueLightForegroundBrush}">
+                <materialDesign:PackIcon Kind="FormatAlignLeft" />
+            </ListBoxItem>
+            <ListBoxItem Background="{StaticResource PrimaryHueMidBrush}" Foreground="{StaticResource PrimaryHueMidForegroundBrush}">
+                <materialDesign:PackIcon Kind="FormatAlignCenter" />
+            </ListBoxItem>
+            <ListBoxItem Background="{StaticResource PrimaryHueDarkBrush}" Foreground="{StaticResource PrimaryHueDarkForegroundBrush}">
+                <materialDesign:PackIcon Kind="FormatAlignRight" />
+            </ListBoxItem>
+            <ListBoxItem Background="{StaticResource PrimaryHueDarkBrush}" Foreground="{StaticResource PrimaryHueDarkForegroundBrush}">
+                <materialDesign:PackIcon Kind="FormatAlignJustify" />
+            </ListBoxItem>
+        </ListBox>
     </StackPanel>
 </Window>
