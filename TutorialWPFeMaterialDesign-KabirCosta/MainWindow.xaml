@@ -24,6 +24,7 @@
         ToolTip="Janela Principal"
         Icon="Youtube.png"
         >
+    <!--Video 1 e 2-->
     <!--<Grid>
         <TextBlock 
             VerticalAlignment="Bottom"
@@ -38,6 +39,7 @@
             Controle
         </Button>
     </Grid>-->
+    <!--Video 3-->
     <!--<StackPanel>
         <TextBlock
             Margin="10">
@@ -51,7 +53,9 @@
         <TextBlock Margin="10" Text="Cursor simbolo hand" Cursor="Hand" />
         <TextBlock Margin="10" Text="Cursor simbolo SizeAll" Cursor="SizeAll" FontWeight="Bold" />
     </StackPanel>-->
-    <StackPanel>
+    
+    <!--Video 4-->
+    <!--<StackPanel>
         <TextBox Margin="10" Text="Olá Mundo"/>
         <TextBox Margin="10" Text="Fonte Bold" FontWeight="Bold" />
         <TextBox Margin="10" Text="Não Disponível" FontWeight="Bold" IsEnabled="False"/>
@@ -59,5 +63,13 @@
         <TextBox Margin="10" Text="Limite Caracteres" MaxLength="30"/>
         <TextBox Margin="10" Text="Parágrafos" AcceptsReturn="True" />
         <TextBox Margin="10" Text="Quebra texto" Width="100" AcceptsReturn="True" TextWrapping="Wrap" HorizontalContentAlignment="Left" />
+    </StackPanel>-->
+    
+    <!--Video 5-->
+    <StackPanel>
+        <CheckBox Margin="10">Primeiro Checkbox</CheckBox>
+        <CheckBox Margin="10" IsChecked="True">Já vem marcado</CheckBox>
+        <CheckBox Margin="10" IsThreeState="True">Indeterminado</CheckBox>
+        <CheckBox Margin="10" Content="Quarto Checkbox" FontSize="16" FontWeight="Bold" />
     </StackPanel>
 </Window>
