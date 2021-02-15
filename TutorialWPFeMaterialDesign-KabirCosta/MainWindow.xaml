@@ -116,7 +116,7 @@
         </Button>
     </StackPanel>-->
     
-    <!--Video 8-->
+    <!--Video 8--><!--
     <StackPanel>
         <ListBox Margin="10" HorizontalAlignment="Left" Width="200" >
             <ListBoxItem Background="{StaticResource PrimaryHueLightBrush}" Foreground="{StaticResource PrimaryHueLightForegroundBrush}">Item 1</ListBoxItem>
@@ -138,5 +138,33 @@
                 <materialDesign:PackIcon Kind="FormatAlignJustify" />
             </ListBoxItem>
         </ListBox>
+    </StackPanel>-->
+    
+    <!--Video 9--><!--
+    <StackPanel>
+        <ComboBox Width="300" Margin="10" HorizontalAlignment="Left">
+            <ComboBoxItem IsSelected="True">Primeira</ComboBoxItem>
+            <ComboBoxItem>Segunda</ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold">Terceira</ComboBoxItem>
+        </ComboBox>
+        
+        <ComboBox Width="300" Margin="10" HorizontalAlignment="Left" materialDesign:HintAssist.Hint="Selecione um Item" IsEditable="True">
+            <ComboBoxItem>Primeira</ComboBoxItem>
+            <ComboBoxItem>Segunda</ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold">Terceira</ComboBoxItem>
+        </ComboBox>
+        
+        <ComboBox Width="300" Margin="10" HorizontalAlignment="Left" materialDesign:HintAssist.Hint="Escolha"
+                  Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                  >
+            <ComboBoxItem>Primeira</ComboBoxItem>
+            <ComboBoxItem>Segunda</ComboBoxItem>
+            <ComboBoxItem FontWeight="Bold">Terceira</ComboBoxItem>
+        </ComboBox>
+    </StackPanel>-->
+    
+    <!--Video 10-->
+    <StackPanel>
+        
     </StackPanel>
 </Window>
