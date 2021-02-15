@@ -24,7 +24,7 @@
         ToolTip="Janela Principal"
         Icon="Youtube.png"
         >
-    <Grid>
+    <!--<Grid>
         <TextBlock 
             VerticalAlignment="Bottom"
             HorizontalAlignment="Center"
@@ -37,5 +37,18 @@
             >
             Controle
         </Button>
-    </Grid>
+    </Grid>-->
+    <StackPanel>
+        <TextBlock
+            Margin="10">
+            Texto Mais Simples Possível
+        </TextBlock>
+        <TextBlock Margin="10" Text="Outro Texto Simples" />
+        <TextBlock Margin="10" Text="Com cor de fonte" Foreground="Brown" />
+        <TextBlock Margin="10" Text="Com cor de fundo" Background="Yellow" />
+        <TextBlock Margin="10" Text="Com dica de texto" ToolTip="Dica de Texto" />
+        <TextBlock Margin="10" Text="Cursor simbolo help" Cursor="Help" />
+        <TextBlock Margin="10" Text="Cursor simbolo hand" Cursor="Hand" />
+        <TextBlock Margin="10" Text="Cursor simbolo SizeAll" Cursor="SizeAll" FontWeight="Bold" />
+    </StackPanel>
 </Window>
