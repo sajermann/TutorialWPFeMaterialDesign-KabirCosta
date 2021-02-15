@@ -66,10 +66,23 @@
     </StackPanel>-->
     
     <!--Video 5-->
-    <StackPanel>
+    <!--<StackPanel>
         <CheckBox Margin="10">Primeiro Checkbox</CheckBox>
         <CheckBox Margin="10" IsChecked="True">Já vem marcado</CheckBox>
         <CheckBox Margin="10" IsThreeState="True">Indeterminado</CheckBox>
         <CheckBox Margin="10" Content="Quarto Checkbox" FontSize="16" FontWeight="Bold" />
+    </StackPanel>-->
+    
+    <!--Video 6-->
+    <StackPanel>
+        <TextBlock Margin="10" FontSize="16" FontWeight="Bold" Text="Opções RadioButton" />
+        <RadioButton Margin="10, 2" GroupName="PriSel" IsChecked="True">Primeira Opção</RadioButton>
+        <RadioButton Margin="10, 2" GroupName="PriSel">Segunda Opção</RadioButton>
+        <RadioButton Margin="10, 2" GroupName="PriSel">Terceira Opção</RadioButton>
+
+        <TextBlock Margin="10" FontSize="16" FontWeight="Bold" Text="Selecione uma opção" />
+        <RadioButton Margin="10, 2" GroupName="SecSel" Content="Sim" />
+        <RadioButton Margin="10, 2" GroupName="SecSel" Content="Não" />
+        <RadioButton Margin="10, 2" GroupName="SecSel" Content="Talvez" IsChecked="True" />
     </StackPanel>
 </Window>
