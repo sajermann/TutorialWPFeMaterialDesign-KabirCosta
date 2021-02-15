@@ -16,9 +16,9 @@
         FontFamily="{DynamicResource MaterialDesignFont}"
         
         Title="MeuApp" 
-        Height="450" 
-        Width="800"
-        MinHeight="300"
+        Height="850" 
+        Width="600"
+        MinHeight="850"
         MinWidth="600"
         WindowStartupLocation="CenterScreen"
         ToolTip="Janela Principal"
@@ -74,7 +74,7 @@
     </StackPanel>-->
     
     <!--Video 6-->
-    <StackPanel>
+    <!--<StackPanel>
         <TextBlock Margin="10" FontSize="16" FontWeight="Bold" Text="Opções RadioButton" />
         <RadioButton Margin="10, 2" GroupName="PriSel" IsChecked="True">Primeira Opção</RadioButton>
         <RadioButton Margin="10, 2" GroupName="PriSel">Segunda Opção</RadioButton>
@@ -84,5 +84,35 @@
         <RadioButton Margin="10, 2" GroupName="SecSel" Content="Sim" />
         <RadioButton Margin="10, 2" GroupName="SecSel" Content="Não" />
         <RadioButton Margin="10, 2" GroupName="SecSel" Content="Talvez" IsChecked="True" />
+    </StackPanel>-->
+    
+    <!--Video 7-->
+    <StackPanel>
+        <!--<Button Margin="10" Content="Primeiro Botão" HorizontalAlignment="Center" />
+        <Button Margin="10" Content="Segundo Botão" HorizontalContentAlignment="Left" />
+        <Button Margin="10" Content="Terceiro Botão" HorizontalContentAlignment="Left" Width="100" />
+        <Button Margin="10" Content="Quarto Botão" HorizontalContentAlignment="Left" Height="100" />
+        <Button Margin="10" ToolTip="Botão Gerado pelo Lib Material Design">Segundo Botão</Button>-->
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedLightButton}" Content="Raised Light" Foreground="White" />
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedButton}" Content="Raised" />
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedDarkButton}" Content="Dark" />
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedAccentButton}" Content="Accent" />
+        <Button Margin="10" Style="{StaticResource MaterialDesignFlatButton}" Content="Flat" />
+
+        <Button Margin="5" Style="{StaticResource MaterialDesignFloatingActionLightButton}" Foreground="White">
+            <materialDesign:PackIcon Kind="Account" Height="30" Width="30" />
+        </Button>
+        <Button Margin="5" Style="{StaticResource MaterialDesignFloatingActionButton}" Foreground="White">
+            <materialDesign:PackIcon Kind="AccountBox" Height="30" Width="30" />
+        </Button>
+        <Button Margin="5" Style="{StaticResource MaterialDesignFloatingActionDarkButton}" Foreground="White">
+            <materialDesign:PackIcon Kind="Alarm" Height="30" Width="30" />
+        </Button>
+        <Button Margin="5" Style="{StaticResource MaterialDesignFloatingActionAccentButton}" Foreground="White">
+            <materialDesign:PackIcon Kind="Ambulance" Height="30" Width="30" />
+        </Button>
+        <Button Margin="5" Style="{StaticResource MaterialDesignFloatingActionMiniButton}" Foreground="White">
+            <materialDesign:PackIcon Kind="Ambulance" Height="30" Width="30" />
+        </Button>
     </StackPanel>
 </Window>
