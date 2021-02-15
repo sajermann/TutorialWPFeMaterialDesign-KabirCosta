@@ -212,6 +212,16 @@
     </StackPanel>-->
     
     <!--Video 12-->
- 
+    <WrapPanel>
+        <Button Margin="3" Width="100" />
+        <Button Margin="3" Width="100" />
+        <Button Margin="3" Width="100" />
+        <Button Margin="3" Width="100" />
+        <Button Margin="3" Width="100" />
+        <Button Margin="3" Width="100" />
+        <Button Margin="3" Width="100" />
+        <ToggleButton Margin="5" />
+        <CheckBox Margin="5" />
+    </WrapPanel>
  
 </Window>
