@@ -38,7 +38,7 @@
             Controle
         </Button>
     </Grid>-->
-    <StackPanel>
+    <!--<StackPanel>
         <TextBlock
             Margin="10">
             Texto Mais Simples Possível
@@ -50,5 +50,14 @@
         <TextBlock Margin="10" Text="Cursor simbolo help" Cursor="Help" />
         <TextBlock Margin="10" Text="Cursor simbolo hand" Cursor="Hand" />
         <TextBlock Margin="10" Text="Cursor simbolo SizeAll" Cursor="SizeAll" FontWeight="Bold" />
+    </StackPanel>-->
+    <StackPanel>
+        <TextBox Margin="10" Text="Olá Mundo"/>
+        <TextBox Margin="10" Text="Fonte Bold" FontWeight="Bold" />
+        <TextBox Margin="10" Text="Não Disponível" FontWeight="Bold" IsEnabled="False"/>
+        <TextBox Margin="10" Text="Somente Leitura" IsReadOnly="True"/>
+        <TextBox Margin="10" Text="Limite Caracteres" MaxLength="30"/>
+        <TextBox Margin="10" Text="Parágrafos" AcceptsReturn="True" />
+        <TextBox Margin="10" Text="Quebra texto" Width="100" AcceptsReturn="True" TextWrapping="Wrap" HorizontalContentAlignment="Left" />
     </StackPanel>
 </Window>
