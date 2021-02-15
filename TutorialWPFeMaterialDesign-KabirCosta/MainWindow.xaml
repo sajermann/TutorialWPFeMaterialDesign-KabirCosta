@@ -15,12 +15,21 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         
-        Title="MainWindow" Height="450" Width="800">
+        Title="MeuApp" 
+        Height="450" 
+        Width="800"
+        MinHeight="300"
+        MinWidth="600"
+        WindowStartupLocation="CenterScreen"
+        ToolTip="Janela Principal"
+        Icon="Youtube.png"
+        >
     <Grid>
         <TextBlock 
             VerticalAlignment="Bottom"
             HorizontalAlignment="Center"
             FontSize="20"
+            Margin="10"
             >Olá Mundo!
         </TextBlock>
         <Button 
